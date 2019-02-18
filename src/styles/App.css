@@ -1,0 +1,61 @@
+h1 {
+    color: #27aedb;
+    text-align: center;
+}
+
+#mainLogo{
+    width: 45%;
+}
+
+#bod{
+    height: 100%;
+}
+
+html{
+    background-image: url("/src/pl.jpg");
+    background-size: cover;
+}
+
+html{
+    height: 100%;
+}
+
+#nav{
+    float: right;
+    position: relative;
+    top: -10px;
+    right: -10px;
+    background-color: black;
+    color: white;
+    opacity: .75;
+    height: 900px;
+    width: 30%;
+}
+
+#logInButton{
+    font-size: 30px;
+    border-top-left-radius: 1em;
+    border-bottom-left-radius: 1em;
+    float: right;
+    position: relative;
+    top: 10px;
+    background-color: #acdfe6;
+    padding-right: 60px;
+    padding-left: 10px;
+}
+
+#logInButton:hover{
+    background-color: #5282bc;
+    font-size: 50px;
+}
+
+#navItems{
+    background-color: #acdfe6;
+    width: 75%;
+    position: relative;
+    top: 10em;
+}
+.navItem{
+    display: block;
+    padding: 5em;
+}
